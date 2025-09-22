@@ -94,10 +94,10 @@
     animation: spinning 7s infinite linear;
     z-index: -1;
     border-radius: inherit;
-    -webkit-transform: scale(2) translate(-50%, -50%);
+    /* -webkit-transform: scale(2) translate(-50%, -50%);
     -moz-transform: scale(2) translate(-50%, -50%);
     -ms-transform: scale(2) translate(-50%, -50%);
-    -o-transform: scale(2) translate(-50%, -50%);
+    -o-transform: scale(2) translate(-50%, -50%); */
   }
   
   @keyframes spinning {
@@ -120,8 +120,8 @@
   }
   
   .animate__animated.animate__fadeInBottomLeft {
-    --animate-duration: 1s;
-    --animate-delay: 1s;
+    /* --animate-duration: 1s;
+    --animate-delay: 1s; */
   }
   /* ======> Question Card */
   .question {
